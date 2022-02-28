@@ -1,0 +1,55 @@
+* {
+    font-family: 'Jost', sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+h1, a {
+    transition: 250ms;
+    font-weight: 400;
+}
+
+body {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+}
+
+.content-left {
+    width: 20vw;
+    text-align: right;
+}
+
+.content-right {
+    width: 20vw;
+    text-align: left;
+}
+
+.header {
+    font-weight: 700;
+}
+
+.header, .content, a {
+    margin: 5vh auto;
+}
